@@ -1,6 +1,6 @@
 # zsh-ahoy
 
-The Zsh completion plugin for Ahoy.
+The Zsh completion plugin for [Ahoy](https://github.com/ahoy-cli/ahoy).
 
 ## Installation
 
@@ -12,7 +12,7 @@ The Zsh completion plugin for Ahoy.
 git clone https://github.com/ahoy-cli/zsh-ahoy.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/ahoy
 ```
 
-2. Add the ahoy zsh plugin to the list of plugins for Oh My Zsh to load, inside `~/.zshrc`:
+2. Add the ahoy zsh plugin to the list of plugins for [Oh My Zsh](https://ohmyz.sh/) to load, inside `~/.zshrc`:
 
 ```
 plugins=(
@@ -38,3 +38,7 @@ echo "source ~/.config/zsh-ahoy/zsh-ahoy.zsh" >> ~/.zshrc
 ```
 
 3. Start a new terminal session.
+
+## Further information about Zsh completions
+
+See the [`zsh-completions`](https://github.com/zsh-users/zsh-completions) project for more examples, further information about Zsh completions, or to write your own and be inspired to help out with this project!
